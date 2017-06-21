@@ -3,7 +3,7 @@ Pipe handler for gulp.js based on gulp-plumber and gulp-notify
 
 #### Install:
 ```
-npm i cluejs/gulp-error-handler
+npm i -S cluejs/gulp-error-handler
 ```
 
 ```
