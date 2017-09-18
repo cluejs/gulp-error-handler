@@ -18,4 +18,4 @@ npm i gulp-notify -g
 ```
 
 #### Options:
-No one yet.
+- (Boolean) `exitOnError`: emit `process.exit(1)` on Error
