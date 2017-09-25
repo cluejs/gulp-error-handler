@@ -19,7 +19,7 @@ npm i gulp-notify -g
 global.$$ = {};
 
 $$.env = require('@cluejs/gulp-env');
-$$.gulp_error_handler = require('gulp-error-handler');
+$$.gulp_error_handler = require('@cluejs/gulp-error-handler');
 
 ...
 gulp.src()

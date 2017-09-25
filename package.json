@@ -1,6 +1,6 @@
 {
   "name": "@cluejs/gulp-error-handler",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Pipe handler for gulp.js based on gulp-plumber and gulp-notify",
   "main": "index.js",
   "scripts": {
