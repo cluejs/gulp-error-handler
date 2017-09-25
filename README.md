@@ -10,12 +10,19 @@ npm i cluejs/gulp-error-handler --save-dev
 npm i gulp-notify -g
 ```
 
-#### Usage:
-```
-...
-    .pipe(require('gulp-error-handler')({}))
-...
-```
-
 #### Options:
 - (Boolean) `exitOnError`: emit `process.exit(1)` on Error
+
+#### Usage:
+``` javascript
+...
+global.$$ = {};
+
+$$.env = require('@cluejs/gulp-env');
+$$.gulp_error_handler = require('gulp-error-handler');
+
+...
+gulp.src()
+    .pipe($$.gulp_error_handler({exitOnError: $$.env.isProduction()}))
+...
+```

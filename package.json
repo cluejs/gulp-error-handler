@@ -1,24 +1,25 @@
 {
   "name": "gulp-error-handler",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Pipe handler for gulp.js based on gulp-plumber and gulp-notify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cluejs/gulp-error-handler.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/cluejs/gulp-error-handler/issues"
   },
-  "homepage": "https://github.com/cluejs/gulp-error-handler#readme",
-  "dependencies": {
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.1.0"
-  }
+  "homepage": "https://github.com/cluejs/gulp-error-handler#readme"
 }
