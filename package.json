@@ -1,5 +1,5 @@
 {
-  "name": "gulp-error-handler",
+  "name": "@cluejs/gulp-error-handler",
   "version": "1.1.2",
   "description": "Pipe handler for gulp.js based on gulp-plumber and gulp-notify",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "demian_dark",
   "license": "ISC",
   "dependencies": {
     "gulp-notify": "^3.0.0",
